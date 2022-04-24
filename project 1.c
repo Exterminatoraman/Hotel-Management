@@ -11,9 +11,9 @@ int main() {
         if (choice==1){
             try=3;
             while (try>0){
-                printf("Enter The Login Credentials\n");
+                printf("Enter The Admin Login Credentials\n");
                 scanf("%d",&apass);
-                if (apass==822){
+                if (apass==822){       //Admin Password
                     printf("******************** Welcome To Admin Portal ********************\n");
                     printf("\n");
                     printf("The current price of Rooms are 4600 per night\n");
@@ -41,9 +41,9 @@ int main() {
         else if(choice==2){
             gtry=3;
             while (gtry>0){
-                printf("Enter The Login Credentials\n");
+                printf("Enter The Guest Login Credentials\n");
                 scanf("%d",&gpass);
-                if (gpass==1234){
+                if (gpass==1234){     //Guest Password
                     printf("******************** Welcome To Guest Portal ********************\n");
                     printf("The guest initials are \n");
                     for (i=0;i<numofguest;i++){ 
